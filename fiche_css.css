@@ -1,0 +1,68 @@
+header{border-bottom: 3px solid pink;
+       height:120px;
+	   
+}
+
+header h1{color:white blue;
+          font-size:1.5em;
+		  width:90%;
+		  margin:0 auto;
+		  
+}
+          
+
+
+section{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	width:100%;
+	padding-bottom:20px;
+	margin:20px auto;
+	background-color:#fff;
+	box-shadow: 0px 0px 10px;
+}
+
+section h2{ 
+        margin:20px;
+		width:90%;
+}
+		
+section > div{ width:90%;}
+
+
+		  
+.contact-flex{ display:flex;
+               flex-flow: row wrap;
+			   align-items:center;
+			 
+}
+
+.contact-flex p:first-child {flex: 0 0 40%;}
+.contact-flex p:last-child {flex: 0 0 60%;}
+
+
+
+.social{ display:flex;
+         justify-content:space-around;
+		 margin: 10px auto 0px auto;
+}
+
+.social img{ width:40px;
+             height:40px;
+			 
+}
+		  
+.debut{border-bottom: 2px dashed #ccc;}
+
+.debut a { display:block;
+          text-align:center;
+		  padding:10px;
+		  margin:10px auto 30px auto;
+		  color:#fff;
+		  background-color: purple;
+		  border-radius:5px;
+		  box-shadow: 0px 0px 10px #ccc;
+		  
+}
+		  
